@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(185, 204, 204);
+}
+
+.container{
+  border: 3px solid black;
+  border-radius: 5px ;
+  background-color: rgb(255, 251, 251);
+  margin-top: 100px;
+}
+
+.result{
+  width: 340px;
+  height: 120px;
+  border: 2px solid gray;
+  border-radius: 2px;
+  font-size: 80px;
+  scroll-behavior: smooth;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 6px;
+}
+
+.zero{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.button{
+  font-size: xx-large ;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
